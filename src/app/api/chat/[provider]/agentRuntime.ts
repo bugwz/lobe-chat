@@ -24,7 +24,7 @@ interface AzureOpenAIParams {
   useAzure?: boolean;
 }
 
-interface AgentChatOptions {
+export interface AgentChatOptions {
   provider: string;
   trace?: TracePayload;
 }
